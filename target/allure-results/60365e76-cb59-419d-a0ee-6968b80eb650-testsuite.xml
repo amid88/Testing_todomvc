@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1432326884388" stop="1432326911363" version="1.4.12" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ua.net.itlabs.lesson5.TodoTest</name>
+    <test-cases>
+        <test-case start="1432326884389" stop="1432326888121" status="passed">
+            <name>testAtActiveFilter</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="dmitriy-R528"/>
+                <label name="thread" value="9928@dmitriy-R528.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1432326888128" stop="1432326892623" status="passed">
+            <name>testAtCompletedFilter</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="dmitriy-R528"/>
+                <label name="thread" value="9928@dmitriy-R528.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1432326892627" stop="1432326903951" status="passed">
+            <name>testCreateTask</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="dmitriy-R528"/>
+                <label name="thread" value="9928@dmitriy-R528.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1432326903956" stop="1432326910969" status="passed">
+            <name>testAtAllFilter</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="dmitriy-R528"/>
+                <label name="thread" value="9928@dmitriy-R528.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
