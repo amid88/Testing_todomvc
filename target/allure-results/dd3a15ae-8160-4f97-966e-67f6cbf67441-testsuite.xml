@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1432449892668" stop="1432449992570" version="1.4.12" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ua.net.itlabs.task2.TodoTest</name>
+    <test-cases>
+        <test-case start="1432449892724" stop="1432449940310" status="passed">
+            <name>testAtActiveFilter</name>
+            <steps>
+                <step start="1432449917747" stop="1432449920013" status="passed">
+                    <name>addTask[create task1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449920043" stop="1432449920722" status="passed">
+                    <name>setActiveFilter</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449920732" stop="1432449922131" status="passed">
+                    <name>addTask[create task2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449922141" stop="1432449923469" status="passed">
+                    <name>addTask[create task3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449927056" stop="1432449928296" status="passed">
+                    <name>assertEach[[
+	&lt;li class="active" data-index="0" value="0"&gt;create task1&lt;/li&gt;,
+	&lt;li class="active" data-index="1" value="0...]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449928305" stop="1432449928512" status="passed">
+                    <name>checkItemsLeftCounter[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449929034" stop="1432449933943" status="passed">
+                    <name>editTask[create task1, create task1_edited]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1432449930464" stop="1432449931947" status="passed">
+                            <name>doubleClick[&lt;label&gt;create task1&lt;/label&gt;]</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1432449933949" stop="1432449934178" status="passed">
+                    <name>checkItemsLeftCounter[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449934700" stop="1432449936391" status="passed">
+                    <name>deleteTask[create task1_edited]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449936413" stop="1432449936645" status="passed">
+                    <name>checkItemsLeftCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449937031" stop="1432449937525" status="passed">
+                    <name>toggleAll</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449937535" stop="1432449937734" status="passed">
+                    <name>checkCompletedCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="screenshot" source="3eed6ab3-4f9f-4189-8a36-dce983fa9561-attachment.png" type="image/png" size="179626"/>
+            </attachments>
+            <labels>
+                <label name="host" value="dmitriy-R528"/>
+                <label name="thread" value="12314@dmitriy-R528.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1432449940336" stop="1432449963013" status="passed">
+            <name>testAtCompletedFilter</name>
+            <steps>
+                <step start="1432449944223" stop="1432449945573" status="passed">
+                    <name>addTask[create task1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449945580" stop="1432449946181" status="passed">
+                    <name>setCompletedFilter</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449946196" stop="1432449947528" status="passed">
+                    <name>addTask[create task2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449947534" stop="1432449948967" status="passed">
+                    <name>addTask[create task3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449948981" stop="1432449949202" status="passed">
+                    <name>checkItemsLeftCounter[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449949207" stop="1432449949850" status="passed">
+                    <name>toggleAll</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449952473" stop="1432449953646" status="passed">
+                    <name>assertEach[[
+	&lt;li class="completed" data-index="0" value="0"&gt;create task1&lt;/li&gt;,
+	&lt;li class="completed" data-index="1" va...]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449953654" stop="1432449953845" status="passed">
+                    <name>checkCompletedCounter[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449953866" stop="1432449954052" status="passed">
+                    <name>checkItemsLeftCounter[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449954577" stop="1432449956246" status="passed">
+                    <name>deleteTask[create task2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449956252" stop="1432449956502" status="passed">
+                    <name>checkCompletedCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449956507" stop="1432449956708" status="passed">
+                    <name>checkItemsLeftCounter[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449957099" stop="1432449957980" status="passed">
+                    <name>toggleTask[create task1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449957989" stop="1432449958219" status="passed">
+                    <name>checkCompletedCounter[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449958224" stop="1432449958422" status="passed">
+                    <name>checkItemsLeftCounter[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449958429" stop="1432449958906" status="passed">
+                    <name>setActiveFilter</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449959363" stop="1432449959826" status="passed">
+                    <name>setCompletedFilter</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449959839" stop="1432449960359" status="passed">
+                    <name>toggleAll</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449960383" stop="1432449960571" status="passed">
+                    <name>checkCompletedCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449960578" stop="1432449960791" status="passed">
+                    <name>checkItemsLeftCounter[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="screenshot" source="d33753c4-ea88-418c-adea-e919f15c46f2-attachment.png" type="image/png" size="179626"/>
+            </attachments>
+            <labels>
+                <label name="host" value="dmitriy-R528"/>
+                <label name="thread" value="12314@dmitriy-R528.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1432449963016" stop="1432449992545" status="passed">
+            <name>testAtAllFilter</name>
+            <steps>
+                <step start="1432449966819" stop="1432449968282" status="passed">
+                    <name>addTask[create task1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449968289" stop="1432449969701" status="passed">
+                    <name>addTask[create task2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449969708" stop="1432449971153" status="passed">
+                    <name>addTask[create task3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449971173" stop="1432449972238" status="passed">
+                    <name>addTask[create task4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449972919" stop="1432449973121" status="passed">
+                    <name>checkItemsLeftCounter[4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449973128" stop="1432449978293" status="passed">
+                    <name>editTask[create task1, create task1_edited]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1432449974757" stop="1432449976049" status="passed">
+                            <name>doubleClick[&lt;label&gt;create task1&lt;/label&gt;]</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1432449978957" stop="1432449979172" status="passed">
+                    <name>checkItemsLeftCounter[4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449979179" stop="1432449981222" status="passed">
+                    <name>deleteTask[create task2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449981802" stop="1432449982013" status="passed">
+                    <name>checkItemsLeftCounter[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449982020" stop="1432449982992" status="passed">
+                    <name>toggleTask[create task4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449982996" stop="1432449983268" status="passed">
+                    <name>checkItemsLeftCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449983277" stop="1432449983475" status="passed">
+                    <name>checkCompletedCounter[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449983481" stop="1432449984058" status="passed">
+                    <name>setCompletedFilter</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449985810" stop="1432449986353" status="passed">
+                    <name>setAllFilter</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449986983" stop="1432449987281" status="passed">
+                    <name>checkItemsLeftCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449987286" stop="1432449988189" status="passed">
+                    <name>toggleTask[create task3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449988197" stop="1432449988432" status="passed">
+                    <name>checkItemsLeftCounter[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449988438" stop="1432449988650" status="passed">
+                    <name>checkCompletedCounter[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449988655" stop="1432449989480" status="passed">
+                    <name>toggleTask[create task3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449989484" stop="1432449989773" status="passed">
+                    <name>checkItemsLeftCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449990172" stop="1432449990653" status="passed">
+                    <name>toggleAll</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449990658" stop="1432449990905" status="passed">
+                    <name>checkItemsLeftCounter[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1432449990911" stop="1432449991112" status="passed">
+                    <name>checkCompletedCounter[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="screenshot" source="7ef3c327-2782-411f-8b2b-25619a16354b-attachment.png" type="image/png" size="179626"/>
+            </attachments>
+            <labels>
+                <label name="host" value="dmitriy-R528"/>
+                <label name="thread" value="12314@dmitriy-R528.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

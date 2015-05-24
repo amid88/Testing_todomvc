@@ -1,0 +1,248 @@
+{
+  "uid" : "d4388ce5af52c5b1",
+  "name" : "testAtActiveFilter",
+  "title" : "Test at active filter",
+  "time" : {
+    "start" : 1432449892724,
+    "stop" : 1432449940310,
+    "duration" : 47586
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 13
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "33e47e95d9f6ea65",
+    "name" : "ua.net.itlabs.task2.TodoTest",
+    "title" : "Todo test"
+  },
+  "steps" : [ {
+    "name" : "addTask[create task1]",
+    "title" : "Add task [create task1]",
+    "time" : {
+      "start" : 1432449917747,
+      "stop" : 1432449920013,
+      "duration" : 2266
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setActiveFilter",
+    "title" : "Set active filter",
+    "time" : {
+      "start" : 1432449920043,
+      "stop" : 1432449920722,
+      "duration" : 679
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "addTask[create task2]",
+    "title" : "Add task [create task2]",
+    "time" : {
+      "start" : 1432449920732,
+      "stop" : 1432449922131,
+      "duration" : 1399
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "addTask[create task3]",
+    "title" : "Add task [create task3]",
+    "time" : {
+      "start" : 1432449922141,
+      "stop" : 1432449923469,
+      "duration" : 1328
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "assertEach[[\n\t<li class=\"active\" data-index=\"0\" value=\"0\">create task1</li>,\n\t<li class=\"active\" data-index=\"1\" value=\"0...]",
+    "title" : "Assert each [[\n\t<li class=\"active\" data-index=\"0\" value=\"0\">create task 1</li>,\n]",
+    "time" : {
+      "start" : 1432449927056,
+      "stop" : 1432449928296,
+      "duration" : 1240
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkItemsLeftCounter[3]",
+    "title" : "Check items left counter [3]",
+    "time" : {
+      "start" : 1432449928305,
+      "stop" : 1432449928512,
+      "duration" : 207
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "editTask[create task1, create task1_edited]",
+    "title" : "Edit task [create task1, create task1_edited]",
+    "time" : {
+      "start" : 1432449929034,
+      "stop" : 1432449933943,
+      "duration" : 4909
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "doubleClick[<label>create task1</label>]",
+      "title" : "Double click [<label>create task1</label>]",
+      "time" : {
+        "start" : 1432449930464,
+        "stop" : 1432449931947,
+        "duration" : 1483
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "checkItemsLeftCounter[3]",
+    "title" : "Check items left counter [3]",
+    "time" : {
+      "start" : 1432449933949,
+      "stop" : 1432449934178,
+      "duration" : 229
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "deleteTask[create task1_edited]",
+    "title" : "Delete task [create task1_edited]",
+    "time" : {
+      "start" : 1432449934700,
+      "stop" : 1432449936391,
+      "duration" : 1691
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkItemsLeftCounter[2]",
+    "title" : "Check items left counter [2]",
+    "time" : {
+      "start" : 1432449936413,
+      "stop" : 1432449936645,
+      "duration" : 232
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "toggleAll",
+    "title" : "Toggle all",
+    "time" : {
+      "start" : 1432449937031,
+      "stop" : 1432449937525,
+      "duration" : 494
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkCompletedCounter[2]",
+    "title" : "Check completed counter [2]",
+    "time" : {
+      "start" : 1432449937535,
+      "stop" : 1432449937734,
+      "duration" : 199
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "3eed6ab3-4f9f-4189-8a36-dce983fa9561-attachment.png",
+    "type" : "image/png",
+    "size" : 179626,
+    "uid" : "3b654855eff96a6c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dmitriy-R528"
+  }, {
+    "name" : "thread",
+    "value" : "12314@dmitriy-R528.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "ua.net.itlabs.task2.TodoTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

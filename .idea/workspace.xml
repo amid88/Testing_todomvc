@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc489695-49c7-4678-b976-5ee0043ccd6d" name="Default" comment="20/05">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_adaptor_api_1_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_annotations_1_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_aspects_1_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_junit_adaptor_1_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_model_1_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_properties_properties_loader_1_5.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ua/net/itlabs/TodoTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_2_18.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java" afterPath="$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Todotests.iml" afterPath="$PROJECT_DIR$/Todotests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/allure-results/60365e76-cb59-419d-a0ee-6968b80eb650-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/allure-results/68a3641e-b86f-4785-b496-a4ac265579ed-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/allure-results/e1d42c6b-90b2-4efb-b467-41cb2f7ba756-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.net.itlabs.lesson5.TodoTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.net.itlabs.task1.TodoTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.net.itlabs.task2.TodoTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/ua.net.itlabs.lesson5.TodoTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/ua.net.itlabs.task1.TodoTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/ua.net.itlabs.task2.TodoTest.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ua/net/itlabs/task2/TodoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ua/net/itlabs/task2/TodoTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Todotests.iws" />
@@ -56,8 +48,8 @@
       <file leaf-file-name="TodoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3364486">
-              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.28504673">
+              <caret line="221" column="37" selection-start-line="221" selection-start-column="16" selection-end-line="221" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1621#1622#0" expanded="true" />
@@ -1067,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3364486">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.28504673">
+          <caret line="221" column="37" selection-start-line="221" selection-start-column="16" selection-end-line="221" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1621#1622#0" expanded="true" />
