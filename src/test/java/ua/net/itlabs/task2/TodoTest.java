@@ -9,27 +9,20 @@ import com.google.common.io.Files;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.interactions.Actions;
 import ru.yandex.qatools.allure.annotations.Attachment;
-import ru.yandex.qatools.allure.annotations.Step;
-
 
 import java.io.File;
 import java.io.IOException;
 
 import static com.codeborne.selenide.CollectionCondition.*;
 import static com.codeborne.selenide.Condition.cssClass;
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Condition.hidden;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
-
+import static ua.net.itlabs.Methods.*;
 
 public class TodoTest {
 
     SelenideElement clearCompleted = $("#clear-completed");
-    SelenideElement todoCount = $("#todo-count");
     ElementsCollection todos = $$("#todo-list>li");
     String task1 = "create task1";
     String task2 = "create task2";
@@ -39,85 +32,14 @@ public class TodoTest {
     Condition completed = cssClass("completed");
     Condition active = cssClass("active");
 
-
-    @Step
-    public void doubleClick(SelenideElement element){
-       Actions action = new Actions(getWebDriver());
-       action.doubleClick(element.toWebElement()).perform();
-   }
-
-    @Step
-    public void addTask(String task) {
-        $("#new-todo").setValue(task).pressEnter();
-    }
-
-    @Step
-    public void editTask(String task, String taskEdited){
-        doubleClick(todos.find(text(task)).find("label"));
-        todos.find(cssClass("editing")).find(".edit").setValue(taskEdited).pressEnter();
-    }
-
-    @Step
-    public void deleteTask(String task){
-        todos.find(text(task)).hover();
-        todos.find(text(task)).find(".destroy").click();
-    }
-
-    @Step
-    public void assertEach(ElementsCollection elements, Condition someCondition) {
-        for (SelenideElement element : elements) {
-            element.shouldBe(someCondition);
-        }
-    }
-
-    @Step
-    public void checkItemsLeftCounter(int number){
-        todoCount.shouldHave(text(Integer.toString(number)));
-    }
-
-    @Step
-    public void checkCompletedCounter(int number){
-        clearCompleted.shouldHave(text("(" + Integer.toString(number) + ")"));
-    }
-
-    public void clearCompleted(){
-        clearCompleted.click();
-        clearCompleted.shouldBe(hidden);
-    }
-
-    @Step
-    public void toggleTask(String task){
-        todos.find(text(task)).find(".toggle").click();
-    }
-
-    @Step
-    public void toggleAll(){
-        $("#toggle-all").click();
-    }
-
-    @Step
-    public void setAllFilter(){
-        $("[href='#/']").click();
-    }
-
-    @Step
-    public void setActiveFilter(){
-        $("[href='#/active']").click();
-    }
-
-    @Step
-    public void setCompletedFilter(){
-        $("[href='#/completed']").click();
-    }
-
     @Before
-    public void loadToDoMVC(){
+    public void loadToDoMVC() {
         open("http://todomvc.com/");
         open("http://todomvc.com/examples/troopjs_require/#");
     }
 
     @After
-    public void clearData(){
+    public void clearData() {
         executeJavaScript("localStorage.clear()");
     }
 
