@@ -1,21 +1,18 @@
 /**
  * Created by dmitriy on 25.05.15.
  */
-package ua.net.itlabs;
+package ua.net.itlabs.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.interactions.Actions;
 import ru.yandex.qatools.allure.annotations.Step;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+import static com.codeborne.selenide.Selenide.*;
 
 
-public class MethodsObject {
+public class TodoMVCPage {
 
     public static SelenideElement clearCompleted = $("#clear-completed");
     public static SelenideElement todoCount = $("#todo-count");
@@ -24,8 +21,7 @@ public class MethodsObject {
 
     @Step
     public void doubleClick(SelenideElement element) {
-        Actions action = new Actions(getWebDriver());
-        action.doubleClick(element.toWebElement()).perform();
+        actions().doubleClick(element).perform();
     }
 
     @Step
@@ -34,9 +30,9 @@ public class MethodsObject {
     }
 
     @Step
-    public void editTask(String task, String taskEdited) {
-        doubleClick(todos.find(text(task)).find("label"));
-        todos.find(cssClass("editing")).find(".edit").setValue(taskEdited).pressEnter();
+    public void editTask(String oldText, String newText) {
+        doubleClick(todos.find(text(oldText)).find("label"));
+        todos.find(cssClass("editing")).find(".edit").setValue(newText).pressEnter();
     }
 
     @Step
@@ -45,7 +41,6 @@ public class MethodsObject {
         todos.find(text(task)).find(".destroy").click();
     }
 
-    @Step
     public void assertEach(ElementsCollection elements, Condition someCondition) {
         for (SelenideElement element : elements) {
             element.shouldBe(someCondition);
@@ -78,7 +73,7 @@ public class MethodsObject {
     }
 
     @Step
-    public void setAllFilter() {
+    public void filterAll() {
         $("[href='#/']").click();
     }
 

@@ -2,9 +2,7 @@ package ua.net.itlabs.task2;
 
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Screenshots;
-import com.codeborne.selenide.SelenideElement;
 import com.google.common.io.Files;
 import org.junit.After;
 import org.junit.Before;
@@ -17,13 +15,12 @@ import java.io.IOException;
 import static com.codeborne.selenide.CollectionCondition.*;
 import static com.codeborne.selenide.Condition.cssClass;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.*;
-import static ua.net.itlabs.Methods.*;
+import static com.codeborne.selenide.Selenide.executeJavaScript;
+import static com.codeborne.selenide.Selenide.open;
+import static ua.net.itlabs.pages.TodoMVC.*;
 
 public class TodoTest {
 
-    SelenideElement clearCompleted = $("#clear-completed");
-    ElementsCollection todos = $$("#todo-list>li");
     String task1 = "create task1";
     String task2 = "create task2";
     String task3 = "create task3";
@@ -84,7 +81,7 @@ public class TodoTest {
 
         //clear completed task
         clearCompleted.click();
-        setAllFilter();
+        filterAll();
         todos.filter(visible).shouldHave(exactTexts(task1 + "_edited", task3));
         checkItemsLeftCounter(2);
 
