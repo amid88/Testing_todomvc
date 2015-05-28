@@ -33,6 +33,7 @@ public class TodoTest {
     Condition completed = cssClass("completed");
     Condition active = cssClass("active");
 
+    //some text
     MethodsObject pageObject;
     public TodoTest() {
         pageObject = new MethodsObject();
