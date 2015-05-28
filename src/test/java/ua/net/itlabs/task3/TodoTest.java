@@ -34,6 +34,7 @@ public class TodoTest {
     Condition active = cssClass("active");
 
     //some text
+    //more text
     MethodsObject pageObject;
     public TodoTest() {
         pageObject = new MethodsObject();
