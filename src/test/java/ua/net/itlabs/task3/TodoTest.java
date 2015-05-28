@@ -10,7 +10,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ru.yandex.qatools.allure.annotations.Attachment;
-import ua.net.itlabs.MethodsObject;
+import ua.net.itlabs.pages.TodoMVCPage;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,9 +35,9 @@ public class TodoTest {
 
     //some text
     //more text
-    MethodsObject pageObject;
+    TodoMVCPage pageObject;
     public TodoTest() {
-        pageObject = new MethodsObject();
+        pageObject = new TodoMVCPage();
     }
 
     @Before
@@ -92,7 +92,7 @@ public class TodoTest {
 
         //clear completed task
         clearCompleted.click();
-        pageObject.setAllFilter();
+        pageObject.filterAll();
         todos.filter(visible).shouldHave(exactTexts(task1 + "_edited", task3));
         pageObject.checkItemsLeftCounter(2);
 
