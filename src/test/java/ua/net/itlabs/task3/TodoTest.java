@@ -33,8 +33,6 @@ public class TodoTest {
     Condition completed = cssClass("completed");
     Condition active = cssClass("active");
 
-    //some text
-    //more text
     TodoMVCPage pageObject;
     public TodoTest() {
         pageObject = new TodoMVCPage();
