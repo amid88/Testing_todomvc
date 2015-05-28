@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="cc489695-49c7-4678-b976-5ee0043ccd6d" name="Default" comment="20/05" />
-=======
     <list default="true" id="cc489695-49c7-4678-b976-5ee0043ccd6d" name="Default" comment="20/05">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ua/net/itlabs/Methods.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java" afterPath="$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
->>>>>>> parent of 569d7e4... Gitignore added
     <ignored path="Todotests.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,11 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-=======
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> parent of 569d7e4... Gitignore added
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1292#1293#0" expanded="true" />
@@ -59,45 +51,11 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="TodoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-              <folding>
-=======
       <file leaf-file-name="Methods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/Methods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-              <caret line="93" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
->>>>>>> parent of 569d7e4... Gitignore added
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="TodoMVC.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/pages/TodoMVC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-=======
-      <file leaf-file-name="MethodsObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/MethodsObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
->>>>>>> parent of 569d7e4... Gitignore added
-=======
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> parent of 2ca7b27... MethodObject added
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -120,30 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoMVCPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/pages/TodoMVCPage.java">
+      <file leaf-file-name="AboutConstructors.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/github/java-koans-master/koans/src/beginner/AboutConstructors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#2031#2032#0" expanded="true" />
-                <element signature="e#2071#2072#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-=======
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -154,7 +92,6 @@
                 <element signature="e#691#692#0" expanded="false" />
                 <element signature="e#735#736#0" expanded="false" />
               </folding>
->>>>>>> parent of 569d7e4... Gitignore added
             </state>
           </provider>
         </entry>
@@ -191,24 +128,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/lesson5/TodoTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/package-info.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/MethodsObject.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$USER_HOME$/github/java-koans-master/koans/src/beginner/AboutConstructors.java" />
-        <option value="$USER_HOME$/github/java-koans-master/koans/src/beginner/AboutArrays.java" />
-        <option value="$USER_HOME$/github/java-koans-master/koans/src/beginner/AboutVarArgs.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/Methods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/TodoMVC.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/pages/TodoMVC.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/pages/TodoMVCPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/task3/TodoTest.java" />
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/src/test/java/ua/net/itlabs/MethodsObject.java" />
->>>>>>> parent of 569d7e4... Gitignore added
-=======
->>>>>>> parent of 2ca7b27... MethodObject added
       </list>
     </option>
   </component>
@@ -228,17 +149,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
-=======
     <option name="x" value="75" />
     <option name="y" value="52" />
     <option name="width" value="1291" />
     <option name="height" value="716" />
->>>>>>> parent of 569d7e4... Gitignore added
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -264,13 +178,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <pane id="Scratches" />
->>>>>>> parent of 569d7e4... Gitignore added
-=======
->>>>>>> parent of 2ca7b27... MethodObject added
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,10 +221,6 @@
               <option name="myItemId" value="itlabs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -346,65 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="task2" />
-<<<<<<< HEAD
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Todotests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Todotests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itlabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Todotests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Todotests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itlabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-=======
->>>>>>> parent of 2ca7b27... MethodObject added
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,7 +315,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/github/GoogleLogIn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -762,18 +606,10 @@
       <item index="2" class="java.lang.String" itemvalue="JUnit.TodoTest (2)" />
     </list>
     <recent_temporary>
-<<<<<<< HEAD
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TodoTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TodoTest (3)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TodoTest (2)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TodoTest" />
-=======
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.TodoTest (1)" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.TodoTest (2)" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.TodoTest" />
->>>>>>> parent of 2ca7b27... MethodObject added
       </list>
     </recent_temporary>
   </component>
@@ -809,11 +645,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-=======
     <frame x="75" y="52" width="1291" height="716" extended-state="0" />
->>>>>>> parent of 569d7e4... Gitignore added
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -831,17 +663,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21906225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31321838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22075911" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3140625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> parent of 569d7e4... Gitignore added
-=======
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31437126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> parent of 2ca7b27... MethodObject added
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -867,17 +690,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="21/05" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task3/TodoTest.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -885,10 +698,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task1/TodoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -903,7 +712,6 @@
         </state>
       </provider>
     </entry>
->>>>>>> parent of 2ca7b27... MethodObject added
     <entry file="file://$USER_HOME$/java-koans-master/koans/src/beginner/AboutCasting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -933,7 +741,6 @@
         </state>
       </provider>
     </entry>
->>>>>>> parent of 569d7e4... Gitignore added
     <entry file="file://$USER_HOME$/java-koans-master/koans/src/beginner/AboutConditionals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1249,99 +1056,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-<<<<<<< HEAD
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/github/java-koans-master/koans/src/beginner/AboutConstructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8378378">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/github/java-koans-master/koans/src/beginner/AboutArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8648649">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/github/GoogleLogIn/src/main/java/GoogleLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-=======
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-          </folding>
->>>>>>> parent of 569d7e4... Gitignore added
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/github/java-koans-master/koans/src/beginner/AboutVarArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8648649">
-          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-=======
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
->>>>>>> parent of 2ca7b27... MethodObject added
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/pages/TodoMVCPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-=======
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-          <caret line="93" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
->>>>>>> parent of 569d7e4... Gitignore added
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/MethodsObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-=======
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
->>>>>>> parent of 569d7e4... Gitignore added
-=======
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> parent of 2ca7b27... MethodObject added
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -1363,43 +1088,14 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/pages/TodoMVC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task3/TodoTest.java">
-=======
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/net/itlabs/task2/TodoTest.java">
->>>>>>> parent of 2ca7b27... MethodObject added
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
->>>>>>> parent of 569d7e4... Gitignore added
-=======
             <element signature="e#1292#1293#0" expanded="true" />
             <element signature="e#1349#1350#0" expanded="true" />
->>>>>>> parent of 2ca7b27... MethodObject added
           </folding>
         </state>
       </provider>
