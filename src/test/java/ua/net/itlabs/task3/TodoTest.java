@@ -28,8 +28,7 @@ public class TodoTest {
     String task2 = "create task2";
     String task3 = "create task3";
     String task4 = "create task4";
-    String task1Edited = task1 + "_edited";
-
+    
     TodoMVCPage pageObject;
     public TodoTest() {
         pageObject = new TodoMVCPage();
@@ -120,15 +119,15 @@ public class TodoTest {
 
         //edit task
         pageObject.setActiveFilter();
-        pageObject.editTask(task1, task1Edited);
+        pageObject.editTask(task1, task1 + "_edited");
         pageObject.checkItemsLeftCounter(3);
-        todos.filter(visible).shouldHave(exactTexts(task1Edited, task2, task3));
+        todos.filter(visible).shouldHave(exactTexts(task1 + "_edited", task2, task3));
         pageObject.filterAll();
-        todos.filter(visible).shouldHave(exactTexts(task1Edited, task2, task3));
+        todos.filter(visible).shouldHave(exactTexts(task1 + "_edited", task2, task3));
 
         //delete task
         pageObject.setActiveFilter();
-        pageObject.deleteTask(task1Edited);
+        pageObject.deleteTask(task1 + "_edited");
         pageObject.checkItemsLeftCounter(2);
         todos.filter(visible).shouldHave(exactTexts(task2, task3));
         pageObject.filterAll();

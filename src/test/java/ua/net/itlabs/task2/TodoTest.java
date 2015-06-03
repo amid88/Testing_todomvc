@@ -27,7 +27,6 @@ public class TodoTest {
     String task2 = "create task2";
     String task3 = "create task3";
     String task4 = "create task4";
-    String task1Edited = task1 + "_edited";
 
     @Before
     public void loadToDoMVC() {
@@ -114,15 +113,15 @@ public class TodoTest {
 
         //edit task
         setActiveFilter();
-        editTask(task1, task1Edited);
+        editTask(task1, task1 + "_edited");
         checkItemsLeftCounter(3);
-        todos.filter(visible).shouldHave(exactTexts(task1Edited, task2, task3));
+        todos.filter(visible).shouldHave(exactTexts(task1 + "_edited", task2, task3));
         filterAll();
-        todos.filter(visible).shouldHave(exactTexts(task1Edited, task2, task3));
+        todos.filter(visible).shouldHave(exactTexts(task1 + "_edited", task2, task3));
 
         //delete task
         setActiveFilter();
-        deleteTask(task1Edited);
+        deleteTask(task1 + "_edited");
         checkItemsLeftCounter(2);
         todos.filter(visible).shouldHave(exactTexts(task2, task3));
         filterAll();
